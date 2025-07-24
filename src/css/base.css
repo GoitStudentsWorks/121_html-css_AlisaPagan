@@ -18,7 +18,7 @@ h4 {
   font-family: 'Cabin', sans-serif;
 }
 
-button {
+.button {
   border: 1px solid #c2d9fc;
   background-color: #c2d9fc;
   border-radius: 100px;
@@ -26,8 +26,8 @@ button {
   height: 46px;
   font-weight: 500;
 }
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: rgba(13, 11, 10, 5%);
   border: 1px solid transparent;
 }
