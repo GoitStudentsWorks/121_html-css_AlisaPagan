@@ -6,23 +6,18 @@ text-align: center;
 }
 
 .testimonials-title{
-padding-top: 64px;
-font-family: Cabin;
-font-weight: 400;
+font-family: 'Cabin', sans-serif;
 font-size: 52px;
 line-height: 1.2;
 letter-spacing: 0.01em;
-color: #0D0B0A;
+margin-top: 64px;
 }
 
 .testimonials-subtitle{
-font-family: var(--font-family);
-font-weight: 400;
 margin: 20px 0 24px 0;
 font-size: 18px;
-line-height: 1.6;
-color:#0D0B0A;
 }
+
 .testimonials-sections-pieses{
 display:flex;
 flex-direction: column;
@@ -33,33 +28,59 @@ width: 343px;
 margin-bottom: 24px;
 background-color:#DFEBEB;
 }
+.testimonials-sections-pieses:last-child{
+margin-bottom: 64px;
+}
+
 .client-photo{
-  margin: 0 auto;
-    border-radius: 50%;
-    margin-top: 32px;
+margin: 0 auto;
+ border-radius: 50%;
+ margin-top: 32px;
 }
 .testimonials-sections-pieses-text{
-font-family:Sarabun;
-font-weight: 400;
 font-size: 22px;
-line-height: 1.6;
 text-align: center;
-color:#0D0B0A;
 }
+
 .client-name{
-    margin-top: 16px;
- font-family: Sarabun;
+margin-top: 16px;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.6;
 text-align: center;
-color: #0D0B0A;
+}
+
+.client-major{
+font-family: 'Roboto', sans-serif;
+line-height: 1.5;
+text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+.testimonials-title{
+font-size: 40px;
+}
+.testimonials-sections-pieses{
+width: 704px;
+}
+}
+
+@media screen and (min-width: 1158px) {
+.testimonials-title{
+font-size: 40px;
+}
+.testimonials-sections-pieses{
+width: 644px;
+height: 356px;
+display: inline-block;
 }
 .client-major{
-font-family: Roboto;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-text-align: center;
-color: inherit;
+line-height: 1.6;
+}
+.testimonials-sections{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+margin: 0 auto;
+}
 }
