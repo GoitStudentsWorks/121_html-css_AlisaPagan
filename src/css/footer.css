@@ -1,0 +1,33 @@
+/*#region footer*/
+.footer{
+    max-width: 100%; 
+}
+
+.footer-container{
+border: 0px solid rgba(13, 11, 10, 0.15);
+border-radius: 16px;
+padding: 32px;
+max-width: 343px;
+background-color:#f8fbfe;
+display: flex;
+flex-direction: column;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  .footer-container {
+    max-width: 704px;
+    padding-top:40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .footer-container {
+    max-width: 1312px;
+    padding: 64px;
+  }
+}
+/*#endregion footer*/
