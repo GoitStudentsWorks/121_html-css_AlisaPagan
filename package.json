@@ -1,11 +1,11 @@
 {
-  "name": "project-group-10",
+  "name": "FlowBloom",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-group-10/",
+    "build": "vite build --base=/FlowBloom/",
     "preview": "vite preview"
   },
   "devDependencies": {
