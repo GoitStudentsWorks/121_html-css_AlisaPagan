@@ -1,25 +1,19 @@
 .container.special-padding {
-  padding: 0 20px;
+  padding: 64px 20px;
 }
 
 .gallery-title {
-  padding-top: 64px;
-  font-family: 'Cabin', sans-serif;
-  font-weight: 400;
   font-size: 40px;
+  font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
-  color: #0d0b0a;
   margin-bottom: 20px;
 }
 .gallery-text {
   font-family: 'Cabin', sans-serif;
-  font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
   text-align: center;
-  color: #0d0b0a;
   margin-bottom: 48px;
 }
 .gallery-list {
@@ -27,7 +21,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 64px;
 }
 .gallery-list-item {
   width: calc((100% - 24px) / 2);
@@ -39,8 +32,11 @@
   display: block;
 }
 @media screen and (min-width: 768px) {
+  .container.special-padding {
+    padding: 40px 32px;
+  }
   .gallery-title {
-    padding-top: 40px;
+    margin-bottom: 24px;
   }
   .gallery-text {
     margin-bottom: 80px;
@@ -48,11 +44,14 @@
   }
 }
 @media screen and (min-width: 1336px) {
-  .gallery {
+  .container.special-padding {
     padding: 112px 64px;
   }
+  .gallery-title {
+    font-size: 52px;
+  }
   .gallery-text {
-    margin-bottom: 80px;
+    font-weight: 500;
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
