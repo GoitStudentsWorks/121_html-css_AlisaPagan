@@ -1,4 +1,4 @@
-@media (min-width:320px){
+
 .about-us {
     display: flex;
     flex-direction: column;
@@ -11,10 +11,6 @@
 .text-container-about-us {
     max-width: 343px;
     text-align: center;
-    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
 }
     
 .list-about-us {
@@ -25,8 +21,6 @@
     
 .mini-title-us {
     text-align: center;
-    
-    font-weight: 400;
     font-size: 24px;
     line-height: 1.4;
     letter-spacing: 0.01em;
@@ -34,15 +28,10 @@
     
 .under-title-us {
     text-align: center;
-    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
     margin-bottom: 48px;
 }
     
 .about-us-title {
-    font-weight: 400;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.01em;
@@ -53,8 +42,6 @@
     
 .button.about-us-btn {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
     color: #0d0b0a;
     margin-top: 48px;
     width: 100%;
@@ -68,71 +55,17 @@
 .tablet-text-about-us {
     display: none;
 }
-}
+
 
 
 @media (min-width:375px) {
 
-.about-us{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #dfebeb;
-    padding: 64px 16px;
-}
-
-.text-container-about-us{
-    max-width: 343px;
-    text-align: center;
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.list-about-us{
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-}
-
-.mini-title-us{
-    text-align: center;
-
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-}
-
 .under-title-us{
-    text-align: center;
     max-width: 343px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 48px;
-}
-
-.about-us-title{
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    text-align: center;
-    max-width: 343px;
-    margin-bottom: 20px;
 }
 
 .button.about-us-btn{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #0d0b0a;
-    margin-top: 48px;
     width: 343px;
-    text-align: center;
 }
 
 .mobile-text-about-us{
