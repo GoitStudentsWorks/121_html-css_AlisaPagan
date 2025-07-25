@@ -126,3 +126,28 @@
     display: inline;
 }
  }
+
+ @media(min-width:1336px){
+
+.about-us{
+    padding: 112px 64px;
+}
+
+.list-about-us{
+    max-width: 100%;
+}
+
+.list-item-about-us{
+    max-width: 310px;
+    width: calc((100% - 72px) / 4);
+}
+
+.mini-title-us{
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+
+.about-us-title{
+    font-size: 52px;
+}
+ }
