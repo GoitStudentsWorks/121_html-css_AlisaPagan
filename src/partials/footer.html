@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container footer-container">
     <div class="footer-subscribe">
-      <a href="" class="footer-logo">
+      <a href="//src/favicon.svg" class="footer-logo">
         <svg class="link-icon" width="83" height="23">
             <use href="/img/icons.svg#icon-logo"></use>
           </svg>
@@ -11,14 +11,18 @@
         and events.
       </p>
       <form class="footer-form">
-        <input type="email" name="email" placeholder="Placeholder" />
-        <button type="submit">Join</button>
+        <input type="email" name="email" placeholder="Placeholder" 
+        class="footer-input" required 
+        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+        />
+        <button type="submit" class="button footer-button">Join</button>
       </form>
       <p class="footer-policy-text">
         By subscribing, you consent to our Privacy Policy and agree to receive
         updates.
       </p>
     </div>
+    <div class="footer-wrapper">
     <div class="footer-navigation">
       <p class="footer-navigation-subtitle">Quick Links</p>
       <ul class="footer-navigation-list">
@@ -60,6 +64,7 @@
             YouTube</a>
         </li>
       </ul>
+      </div>
       </div>
     <p class="footer-copyright">&copy;2025 Yoga Studio. All rights reserved</p>
     </div>
