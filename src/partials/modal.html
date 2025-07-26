@@ -1,6 +1,6 @@
-<div class="modal-overlay-10">
+<div class="modal-overlay-10" data-modal="10">
   <div class="modal container">
-    <button type="button" class="modal-close-button">
+    <button type="button" class="modal-close-button" data-menu-close>
       <svg class="close-icon" width="32" height="32">
         <use href="/img/icons.svg#icon-modal"></use>
       </svg>
@@ -23,25 +23,30 @@
         />
       </div>
 
-      <div class="modal-field-wrapper">
-        <label for="email" class="modal-label">Email</label>
-        <input
-          id="email"
-          class="modal-form-field"
-          type="email"
-          placeholder="Placeholder"
-        />
-      </div>
+      <div class="modal-form-mid-wrapper">
+        <div class="modal-field-wrapper">
+          <label for="email" class="modal-label">Email</label>
+          <input
+            id="email"
+            class="modal-form-field"
+            type="email"
+            placeholder="Placeholder"
+          />
+        </div>
 
-      <div class="modal-field-wrapper">
-        <label for="phone" class="modal-label">Phone number</label>
-        <input
-          id="phone"
-          class="modal-form-field"
-          type="tel"
-          placeholder="Placeholder"
-          required
-        />
+        <div class="modal-field-wrapper">
+          <label for="phone" class="modal-label">Phone number</label>
+          <input
+            id="phone"
+            class="modal-form-field"
+            type="tel"
+            placeholder="Placeholder"
+            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})"
+            required
+          />
+
+          <p class="text-invalid">Invalid phone number</p>
+        </div>
       </div>
 
       <button type="submit" class="button">Go to checkout</button>
@@ -49,9 +54,9 @@
   </div>
 </div>
 
-<div class="modal-overlay-65">
+<div class="modal-overlay-65" data-modal="65">
   <div class="modal container">
-    <button type="button" class="modal-close-button">
+    <button type="button" class="modal-close-button" data-menu-close>
       <svg class="close-icon" width="32" height="32">
         <use href="/img/icons.svg#icon-modal"></use>
       </svg>
@@ -74,25 +79,30 @@
         />
       </div>
 
-      <div class="modal-field-wrapper">
-        <label for="email" class="modal-label">Email</label>
-        <input
-          id="email"
-          class="modal-form-field"
-          type="email"
-          placeholder="Placeholder"
-        />
-      </div>
+      <div class="modal-form-mid-wrapper">
+        <div class="modal-field-wrapper">
+          <label for="email" class="modal-label">Email</label>
+          <input
+            id="email"
+            class="modal-form-field"
+            type="email"
+            placeholder="Placeholder"
+          />
+        </div>
 
-      <div class="modal-field-wrapper">
-        <label for="phone" class="modal-label">Phone number</label>
-        <input
-          id="phone"
-          class="modal-form-field"
-          type="tel"
-          placeholder="Placeholder"
-          required
-        />
+        <div class="modal-field-wrapper">
+          <label for="phone" class="modal-label">Phone number</label>
+          <input
+            id="phone"
+            class="modal-form-field"
+            type="tel"
+            placeholder="Placeholder"
+            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})"
+            required
+          />
+
+          <p class="text-invalid">Invalid phone number</p>
+        </div>
       </div>
 
       <button type="submit" class="button">Go to checkout</button>
@@ -100,9 +110,9 @@
   </div>
 </div>
 
-<div class="modal-overlay-80">
+<div class="modal-overlay-80" data-modal="80">
   <div class="modal container">
-    <button type="button" class="modal-close-button">
+    <button type="button" class="modal-close-button" data-menu-close>
       <svg class="close-icon" width="32" height="32">
         <use href="/img/icons.svg#icon-modal"></use>
       </svg>
@@ -135,15 +145,20 @@
         />
       </div>
 
-      <div class="modal-field-wrapper">
-        <label for="phone" class="modal-label">Phone number</label>
-        <input
-          id="phone"
-          class="modal-form-field"
-          type="tel"
-          placeholder="Placeholder"
-          required
-        />
+      <div class="modal-form-mid-wrapper">
+        <div class="modal-field-wrapper">
+          <label for="phone" class="modal-label">Phone number</label>
+          <input
+            id="phone"
+            class="modal-form-field"
+            type="tel"
+            placeholder="Placeholder"
+            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})"
+            required
+          />
+
+          <p class="text-invalid">Invalid phone number</p>
+        </div>
       </div>
 
       <button type="submit" class="button">Go to checkout</button>

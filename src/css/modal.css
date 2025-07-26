@@ -75,12 +75,35 @@
   outline: transparent;
 }
 
+.modal-form-mid-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .modal-form-field:focus::placeholder {
   opacity: 0;
 }
 
 .modal-form-field::placeholder {
   color: rgba(13, 11, 10, 60%);
+}
+
+.modal-form-field:not(:placeholder-shown):invalid {
+  border-color: #b10000;
+}
+
+.text-invalid {
+  margin-top: 8px;
+  display: none;
+}
+
+.text-invalid {
+  color: #b10000;
+}
+
+.modal-form-field:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
 }
 
 .modal-heading {
@@ -107,4 +130,36 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 704px;
+    height: fit-content;
+    border-radius: 16px;
+    padding: 64px 92px;
+  }
+
+  .modal-form-mid-wrapper {
+    flex-direction: row;
+  }
+
+  .modal-field-wrapper {
+    width: 520px;
+  }
+
+  .button {
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .modal {
+    width: 768px;
+    padding: 64px;
+  }
+
+  .modal-field-wrapper {
+    width: 640px;
+  }
 }
