@@ -1,0 +1,150 @@
+.hero-image {
+  width: 100%;
+  min-height: 297px;
+  background-image: url(/img/hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-resolution: 2dppx) {
+  .hero-image {
+    background-image: url(/img/hero-mobile2x.jpg);
+  }
+}
+
+/* hero baner for 768px */
+@media (min-width: 768px) {
+  .hero-image {
+    height: 359px;
+    background-image: url(/img/hero.jpg);
+  }
+
+  @media (min-resolution: 2dppx) {
+    .hero-image {
+      background-image: url(/img/hero2x.jpg);
+    }
+  }
+}
+
+/* hero baner for 1336px */
+
+@media (min-width: 1336px) {
+  .hero-image {
+    height: 684px;
+    background-image: url(/img/hero.jpg);
+  }
+
+  @media (min-resolution: 2dppx) {
+    .hero-image {
+      background-image: url(/img/hero2x.jpg);
+    }
+  }
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.hero-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  max-width: 343px;
+  margin-bottom: 20px;
+}
+
+.hero-text-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: auto;
+}
+
+.hero-text {
+  max-width: 343px;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-list-item {
+  width: 100%;
+}
+
+.hero-btn {
+  color: #0d0b0a;
+  text-align: center;
+  display: block;
+}
+
+.hero-btn-secondary {
+  background-color: rgba(13, 11, 10, 0.05);
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.hero-btn-secondary:hover,
+.hero-btn-secondary:focus {
+  border-color: #c2d9fc;
+  background-color: #c2d9fc;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    padding: 24px 0;
+    align-items: start;
+  }
+
+  .hero-title {
+    max-width: 423px;
+
+    margin-bottom: 8px;
+  }
+
+  .hero-text-holder {
+    gap: 32px;
+  }
+
+  .hero-text {
+    max-width: 641px;
+    font-size: 18px;
+  }
+  .hero-list {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-list-item {
+    width: auto;
+  }
+
+  .hero-list-item {
+    min-width: 144px;
+  }
+}
+
+@media (min-width: 1336px) {
+  .hero-content {
+    flex-direction: row;
+    padding: 80px 0;
+  }
+  .hero-title {
+    font-size: 72px;
+    max-width: 644px;
+
+    margin-bottom: 0;
+    margin-right: 24px;
+  }
+  .hero-text {
+    min-width: 641px;
+  }
+}
