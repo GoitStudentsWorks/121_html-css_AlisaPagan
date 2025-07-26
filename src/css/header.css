@@ -102,11 +102,6 @@ html {
     .nav-link.current::after {
         opacity: 1;
     } 
-
-    .nav-link:hover,
-    .nav-link:focus {
-        color: #c2d9fc;
-    } 
 }
 
 /* mobile menu */
