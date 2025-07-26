@@ -1,6 +1,6 @@
 <header class="header">
     <div class=" container header-container">
-        <button type="button" class="burger-btn">
+        <button type="button" class="burger-btn" data-menu-open>
             <svg class="icon-burger-menu" width="24" height="24">
                 <use href="/img/icons.svg#icon-menu"></use>
             </svg>
@@ -8,11 +8,11 @@
         
         <nav class="header-nav">
             <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link current">Yoga Classes</a></li>
-                <li class="nav-item"><a class="nav-link">Team</a></li>
-                <li class="nav-item"><a class="nav-link">Testimonials</a></li>
-                <li class="nav-item"><a class="nav-link">Pricing</a></li>
-                <li class="nav-item"><a class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a class="nav-link current" href="#yoga">Yoga Classes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing-section">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contacts</a></li>
             </ul>
 
             <a class="logo header-logo" href="./index.html">
@@ -29,36 +29,41 @@
 
     </div>
 
-    <div class="mobile-menu">
-        <div class="">
-            <button class="navbar-close">
-                <svg class="icon-navbar-close" width="24" height="24">
+    <div class="mobile-menu " data-menu>
+        <div class="container mobile-menu-container">
+            <button class="mobile-menu-close" data-menu-close>
+                <svg class="icon-navbar-close data-menu-close" width="24" height="24">
                     <use href="/img/icons.svg#icon-modal"></use>
                 </svg>
             </button>
+
             <a class="logo header-logo" href="./index.html">
                 <svg class="" width="84" height="36">
                     <use href="/img/icons.svg#icon-logo"></use>
                 </svg>
             </a>
-            <button type="button" class="button">
-                <a href="#pricing-section">Join</a>
-            </button>
+            
+            <a class="button btn-header" href="#pricing-section">
+                <span class="mobile-text-header">Join</span>
+                <span class="tb-ds-text-header">Join Now</span>
+            </a>
         </div>
 
-        <div>
-            <nav>
-                <ul >
-                    <li><a>Yoga Classes</a></li>
-                    <li><a>Team</a></li>
-                    <li><a>Testimonials</a></li>
-                    <li><a>Pricing</a></li>
-                    <li><a>Contacts</a></li>
+        <div class="container mobile-menu-container-nav">
+            <nav class="mobile-menu-nav">
+                <ul class="nav-list-mobile">
+                    <li class="nav-item-mobile"><a class="nav-link current" href="#yoga">Yoga Classes</a></li>
+                    <li class="nav-item-mobile"><a class="nav-link-mobile" href="#team">Team</a></li>
+                    <li class="nav-item-mobile"><a class="nav-link-mobile" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item-mobile"><a class="nav-link-mobile" href="#pricing-section">Pricing</a></li>
+                    <li class="nav-item-mobile"><a class="nav-link-mobile" href="#footer">Contacts</a></li>
                 </ul>
+
+                <a class="button btn-mobile-nav" href="#pricing-section">Join Now</a>
             </nav>
-            <button type="button" class="button">
-                <a href="#pricing-section">Join Now</a>
-            </button>
+
         </div>
     </div>
+
+    <script src="./main.js"></script>
 </header>
