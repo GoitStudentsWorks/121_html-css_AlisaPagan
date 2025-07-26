@@ -18,7 +18,6 @@
   align-items: flex-start;
 }
 
-/*#region newsletter*/
 .footer-subscribe {
   display: flex;
   flex-direction: column;
@@ -120,8 +119,6 @@
 .footer-copyright {
   font-size: 14px;
 }
-
-/*#endregion newsletter*/
 
 @media screen and (min-width: 768px) {
   .footer-container {
