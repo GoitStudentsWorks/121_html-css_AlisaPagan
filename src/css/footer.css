@@ -42,11 +42,12 @@
 
 .footer-input {
   border-radius: 12px;
-  padding: 10px 24px;
+  padding: 24px 10px;
   border: 1px solid transparent;
   background-color: rgba(13, 11, 10, 0.05);
   width: 100%;
   max-width: 279px;
+  height: 42px;
   outline: none;
 }
 
