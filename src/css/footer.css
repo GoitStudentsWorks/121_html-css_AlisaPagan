@@ -164,8 +164,6 @@
   .footer-container {
     max-width: 1312px;
     width: 100%;
-    padding: 64px;
-    margin: 0 auto;
     flex-wrap: wrap;
   }
 
