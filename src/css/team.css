@@ -1,11 +1,13 @@
 .our-team {
   text-align: center;
 }
+
 .meet {
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 12px;
 }
+
 .team-title {
   font-weight: 400;
   font-size: 40px;
@@ -13,9 +15,11 @@
   letter-spacing: 0.01em;
   margin-bottom: 20px;
 }
+
 .team-description {
   margin-bottom: 48px;
 }
+
 .team-list {
   display: flex;
   flex-direction: column;
@@ -23,31 +27,38 @@
   gap: 48px;
   margin: 0 auto;
 }
+
 .team-card {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .team-photo {
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 20px;
 }
+
 .team-name {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.6;
 }
+
 .team-info {
   margin-bottom: 12px;
 }
+
 .team-about {
   margin-bottom: 20px;
 }
+
 .team-social-media {
   display: flex;
   gap: 14px;
 }
+
 .team-social-media-link {
   display: flex;
   justify-content: center;
@@ -60,17 +71,21 @@
     font-size: 52px;
     margin-bottom: 24px;
   }
+
   .team-name {
     font-weight: 600;
     font-size: 22px;
   }
+
   .team-info {
     font-size: 18px;
   }
+
   .team-description {
     font-size: 18px;
     margin-bottom: 40px;
   }
+
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,6 +94,7 @@
     align-items: flex-start;
     gap: 24px;
   }
+
   .team-card {
     width: calc((100% - 24px) / 2);
   }
@@ -90,6 +106,7 @@
     max-width: 1312px;
     gap: 64px 24px;
   }
+
   .team-card {
     width: calc((100% - 48px) / 3);
   }

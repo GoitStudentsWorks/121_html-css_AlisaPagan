@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center;
 }
+
 @media (min-resolution: 2dppx) {
   .hero-image {
     background-image: url(/img/hero-mobile2x.jpg);
@@ -54,9 +55,7 @@
   font-size: 44px;
   line-height: 1.2;
   letter-spacing: 0.01em;
-
   max-width: 343px;
-
   margin-bottom: 20px;
 }
 

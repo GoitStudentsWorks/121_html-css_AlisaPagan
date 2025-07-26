@@ -10,51 +10,62 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
 .gallery-text {
   font-size: 18px;
   text-align: center;
   margin-bottom: 48px;
 }
+
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
+
 .gallery-list-item {
   width: calc((100% - 24px) / 2);
 }
+
 .gallery-list-item-img {
   border-radius: 16px;
   max-width: 100%;
   height: auto;
   display: block;
 }
+
 @media screen and (min-width: 768px) {
   .container.special-padding {
     padding: 40px 32px;
   }
+
   .gallery-title {
     margin-bottom: 24px;
   }
+
   .gallery-text {
     margin-bottom: 80px;
     text-indent: 12px;
   }
 }
+
 @media screen and (min-width: 1336px) {
   .container.special-padding {
     padding: 112px 64px;
   }
+
   .gallery-title {
     font-size: 52px;
   }
+
   .gallery-text {
     font-weight: 500;
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .gallery-list-item {
     width: calc((100% - 48px) / 3);
   }
