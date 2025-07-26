@@ -1,14 +1,14 @@
 .hero-image {
   width: 100%;
   min-height: 297px;
-  background-image: url(../img/hero-mobile.jpg);
+  background-image: url(/img/hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media (min-resolution: 2dppx) {
   .hero-image {
-    background-image: url(../img/hero-mobile2x.jpg);
+    background-image: url(/img/hero-mobile2x.jpg);
   }
 }
 
@@ -16,12 +16,12 @@
 @media (min-width: 768px) {
   .hero-image {
     height: 359px;
-    background-image: url(../img/hero.jpg);
+    background-image: url(/img/hero.jpg);
   }
 
   @media (min-resolution: 2dppx) {
     .hero-image {
-      background-image: url(../img/hero2x.jpg);
+      background-image: url(/img/hero2x.jpg);
     }
   }
 }
@@ -31,12 +31,12 @@
 @media (min-width: 1336px) {
   .hero-image {
     height: 684px;
-    background-image: url(../img/hero.jpg);
+    background-image: url(/img/hero.jpg);
   }
 
   @media (min-resolution: 2dppx) {
     .hero-image {
-      background-image: url(../img/hero2x.jpg);
+      background-image: url(/img/hero2x.jpg);
     }
   }
 }
