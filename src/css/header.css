@@ -82,6 +82,7 @@ html {
 
     .nav-link.current {
         position: relative;
+        color: #0d0b0a;
     }
 
     .nav-link::after {
