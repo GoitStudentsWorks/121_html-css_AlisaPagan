@@ -93,7 +93,6 @@
   margin-bottom: 16px;
 }
 
-
 .footer-navigation-item:last-child,
 .footer-social-item:last-child {
   margin-bottom: 0;
@@ -112,7 +111,6 @@
 }
 
 .footer-social-item a {
-  
   color: #252322;
   text-decoration: none;
   display: inline-flex;
