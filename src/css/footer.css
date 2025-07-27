@@ -51,6 +51,13 @@
   outline: none;
 }
 
+.footer-input:invalid {
+  border: 1px solid transparent;
+}
+.footer-input:invalid:focus:not(:placeholder-shown) {
+  border: 1px solid #b10000;
+}
+
 .footer-button {
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0);

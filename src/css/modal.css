@@ -1,6 +1,4 @@
-.modal-overlay-10,
-.modal-overlay-65,
-.modal-overlay-80 {
+.modal-overlay {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -12,9 +10,7 @@
   pointer-events: none;
   background-color: rgba(0, 0, 0, 25%);
 }
-.modal-overlay-10.is-open,
-.modal-overlay-65.is-open,
-.modal-overlay-80.is-open {
+.modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
 }
