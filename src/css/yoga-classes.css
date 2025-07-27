@@ -20,6 +20,12 @@
              margin-bottom: 40px;
          }
 
+.sectioninfo {
+    margin-bottom: 48px;
+    font-size: 16px;
+    text-align: center;
+}
+
 @media screen and (max-width: 767px) {
 .yoga-classes {
     background-color: #DFEBEB;
@@ -68,11 +74,8 @@
     }
 
     .sectioninfo {
-
-        font-weight: 400;
         margin-bottom: 48px;
         font-size: 16px;
-        line-height: 1.6;
         text-align: center;
     }
 
@@ -217,10 +220,8 @@
     }
 
     .sectioninfo {
-        font-weight: 400;
         margin-bottom: 48px;
         font-size: 16px;
-        line-height: 1.6;
         text-align: center;
     }
 
