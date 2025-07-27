@@ -1,5 +1,7 @@
 .our-team {
   text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .meet {
@@ -67,6 +69,11 @@
 
 /* Version for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .our-team {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .team-title {
     font-size: 52px;
     margin-bottom: 24px;
@@ -102,6 +109,11 @@
 
 /* Version for Desktop devices */
 @media only screen and (min-width: 1336px) {
+  .our-team {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
   .team-list {
     max-width: 1312px;
     gap: 64px 24px;
