@@ -89,6 +89,9 @@
   border-radius: 100px;
   background: none;
 }
+.pricing-plans-list-item-pads {
+  display: none;
+}
 
 @media only screen and (min-width: 375px) {
   .pricing-plans-list-item {
@@ -103,26 +106,29 @@
 }
 @media only screen and (min-width: 768px) {
   .pricing-plans-list-item-first, .pricing-plans-list-item-second {
-
+    flex-grow: 0.5;
     padding: 16px;
   }
-  .plan-item-title {
-    order: 1;
-  }
   .plan-plans-list-item-third {
-    flex-grow: 1;
+    display: none;
+  }
+  .pricing-plans-list-item-pads {
     display: flex;
+    gap: 32px;
+    flex-grow: 1;
+    align-items: baseline;
+    padding: 86px 16px;
   }
-  .plan-features {
-    order: 3;
+  .plan-name{
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    text-align: center;
   }
-  .pricing-btn {
-    width: 308px;
-    order: 2;
-  }
-  pricing-btn-third {
-
-    top: 20px;
+  .pricing-btn-third {
+    width: 320px;
   }
   .plan-features-item {
     font-size: 16px;
