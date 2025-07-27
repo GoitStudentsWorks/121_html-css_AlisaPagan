@@ -1,56 +1,64 @@
+.subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+ .sectiontitle {
+     font-weight: 400;
+     font-size: 40px;
+     line-height: 1.2;
+     letter-spacing: 0.01em;
+     list-style: none;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ 
+ .description {
+             font-size: 18px;
+             margin-bottom: 40px;
+         }
+
+@media screen and (max-width: 767px) {
 .yoga-classes {
     background-color: #DFEBEB;
 }
+}
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 767px){
     .subtitleone {
         text-align: center;
-        padding-top: 64px;
-
 
     }
 
+        .section-yoga {
+            padding-top: 64px;
+            padding-bottom: 64px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
 
     .subtitle {
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0;
-        color: #0D0B0A;
         list-style: none;
         padding-bottom: 12px;
         text-align: center;
     }
 
-    .visually-hidden {
-        font-family: 'Cabin', sans-serif;
-        font-weight: 400;
+    .sectiontitle {
         font-size: 40px;
-        line-height: 1.2;
-        letter-spacing: 0.01em;
-        color: #0D0B0A;
-        list-style: none;
         margin-bottom: 20px;
         text-align: center;
     }
 
     .description {
-        font-family: 'Sarabun', sans-serif;
-        ;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0.01em;
-        color: #0D0B0A;
-        list-style: none;
         margin-bottom: 48px;
-        text-align: center;
+
 
     }
 
     .sectionname {
-        font-family: 'Cabin', sans-serif;
         font-weight: 400;
         padding-top: 24px;
         font-size: 24px;
@@ -60,8 +68,7 @@
     }
 
     .sectioninfo {
-        font-family: 'Sarabun', sans-serif;
-        ;
+
         font-weight: 400;
         margin-bottom: 48px;
         font-size: 16px;
@@ -69,147 +76,80 @@
         text-align: center;
     }
 
-    .btn {
+    .button {
+        display: none;
+
+    }
+
+    .button2 {
         background-color: #C2D9FC;
-        font-family: "Sarabun", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 0;
-        color: #0D0B0A;
-        min-width: 343px;
-        height: 48px;
         border-radius: 25px;
-        display: inline-block;
         margin-bottom: 64px;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-right: 156px;
-        padding-left: 156px;
         display: flex;
         align-items: center;
         justify-content: center;
-
-    }
-
-    .containerpict {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-}
-
-@media screen and (min-width: 1440px) {
-    .subtitleone {
-
-        width: 768px;
-        margin: auto;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .subtitle {
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0;
-        color: #0D0B0A;
-        list-style: none;
-        text-align: center;
-        margin-bottom: 16px;
-    }
-
-    .visually-hidden {
-        font-family: 'Cabin', sans-serif;
-        width: 768px;
-        font-weight: 400;
-        font-size: 52px;
-        line-height: 1.2;
-        letter-spacing: 0.01em;
-        color: #0D0B0A;
-        list-style: none;
-        text-align: center;
-        margin-bottom: 24px;
-
-    }
-
-    .description {
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.6;
-        letter-spacing: 0.01em;
-        color: #0D0B0A;
-        list-style: none;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .ulcards {
-        list-style: none;
-        display: flex;
-        gap: 24px;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 0;
-    }
-
-    .licards {
-        width: 422px;
-        list-style: none;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .btn {
-        background-color: #C2D9FC;
-        font-family: "Sarabun", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0;
-        color: #0D0B0A;
-        width: 110px;
+        max-width: 343px;
         height: 46px;
-        border-radius: 25px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 24px;
-        padding-left: 24px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        margin-bottom: 122px;
-
+        margin: 0 auto;
 
     }
+.ulcards {
+    display: flex;
+    flex-direction: column;
+    max-width: 343px;
+    margin: 0 auto;
+}
 
-    .sectionname {
-        font-family: 'Cabin', sans-serif;
-        font-weight: 400;
-        padding-top: 24px;
-        font-size: 36px;
-        line-height: 1.4;
-        padding-bottom: 20px;
-        text-align: center;
-    }
 
-    .sectioninfo {
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 400;
-        margin-bottom: 48px;
-        font-size: 16px;
-        line-height: 1.6;
-        text-align: center;
-    }
+.licardsone {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.licardstwo {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.sectiontitle2 {
+    display: none;
+}
+
+.cardtwo {
+    display: none;
+}
 
 }
 
-@media screen and (min-width: 768px) {
-    .subtitleone {
 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1335px){
+
+    .section-yoga {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+    .subtitleone {
         width: 704px;
         margin: auto;
         align-items: center;
@@ -218,25 +158,17 @@
     }
 
     .subtitle {
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0;
-        color: #0D0B0A;
         list-style: none;
         text-align: center;
         margin-bottom: 16px;
     }
 
-    .visually-hidden {
-        font-family: 'Cabin', sans-serif;
+    .sectiontitle2 {
         width: 768px;
         font-weight: 400;
         font-size: 40px;
         line-height: 1.2;
         letter-spacing: 0.01em;
-        color: #0D0B0A;
         list-style: none;
         text-align: center;
         margin-bottom: 24px;
@@ -244,40 +176,18 @@
     }
 
     .description {
-        font-family: 'Sarabun', sans-serif;
-        font-weight: 400;
         font-size: 18px;
-        line-height: 1.6;
-        letter-spacing: 0.01em;
-        color: #0D0B0A;
-        list-style: none;
-        text-align: center;
+
         margin-bottom: 40px;
     }
 
-    .ulcards {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
-    .licards {
-        width: 422px;
-        list-style: none;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .btn {
+    .button {
         background-color: #C2D9FC;
-        font-family: "Sarabun", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 0;
-        color: #0D0B0A;
         width: 110px;
         height: 46px;
         border-radius: 25px;
@@ -287,13 +197,17 @@
         padding-left: 24px;
         margin-left: auto;
         margin-right: auto;
-        display: block;
         margin-bottom: 50px;
         margin-top: 50px;
+        align-items: center;
+            justify-content: center;
+            display: block;
+                margin: auto;
+                text-align: center;
+                white-space: nowrap;
     }
 
     .sectionname {
-        font-family: 'Cabin', sans-serif;
         font-weight: 400;
         padding-top: 24px;
         font-size: 24px;
@@ -303,11 +217,148 @@
     }
 
     .sectioninfo {
-        font-family: 'Sarabun', sans-serif;
         font-weight: 400;
         margin-bottom: 48px;
         font-size: 16px;
         line-height: 1.6;
         text-align: center;
     }
+
+.button2 {
+display: none;
+}
+
+.sectiontitle {
+    display: none;
+}
+
+}
+
+
+
+@media screen and (min-width: 1336px) {
+
+    .sectiontitle {
+            font-size: 48px;
+            text-align: center;
+        }
+
+    .section-yoga {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+
+    .subtitleone {
+        font-weight: 400;
+        width: 768px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    .subtitle {
+        list-style: none;
+        text-align: center;
+       
+    }
+
+    .sectiontitle {
+        width: 768px;
+        font-size: 52px;
+        text-align: center;
+        margin-bottom: 24px;
+
+    }
+
+    .description {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+
+    .button {
+        background-color: #C2D9FC;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0;
+        width: 110px;
+        height: 46px;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 24px;
+        padding-left: 24px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        white-space: nowrap;
+       
+    }
+     
+        .ulcards {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            max-width: 1336px;
+            margin: auto;
+        }
+    
+        .licardsone {
+            
+            width: 30%;
+            text-align: center;
+            padding-bottom: 32px;
+            transition: transform 0.3s ease;
+            max-width: 1336px;
+        }
+
+                .licardstwo {
+        
+                    width: 30%;
+                    text-align: center;
+                    padding-bottom: 32px;
+                    transition: transform 0.3s ease;
+                    max-width: 1336px;
+                }
+    
+    
+    
+        .containerpict {
+            width: 100%;
+        }
+    
+        .sectionname {
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 1.4;
+            text-align: center;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    margin-top: 0;
+        }
+    
+        .sectioninfo {
+            font-size: 16px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+.button2 {
+    display: none;
+}
+
+.sectiontitle2 {
+    display: none;
+}
+.cardtwo {
+    display: none;
+}
 }
