@@ -18,6 +18,7 @@
  .description {
              font-size: 18px;
              margin-bottom: 40px;
+             text-align: center;
          }
 
 .sectioninfo {
@@ -64,14 +65,15 @@
 
     }
 
-    .sectionname {
+    .sectionname2 {
         font-weight: 400;
         padding-top: 24px;
         font-size: 24px;
         line-height: 1.4;
-        padding-bottom: 20px;
+        padding-bottom: 24px;
         text-align: center;
     }
+    
 
     .sectioninfo {
         margin-bottom: 48px;
@@ -100,6 +102,7 @@
         max-width: 343px;
         height: 46px;
         margin: 0 auto;
+        color: #0D0B0A;
 
     }
 .ulcards {
@@ -132,17 +135,10 @@
     display: none;
 }
 
+.sectionnameone{
+    display: none;
 }
-
-
-
-
-
-
-
-
-
-
+}
 
 @media screen and (min-width: 768px) and (max-width: 1335px){
 
@@ -208,19 +204,21 @@
                 margin: auto;
                 text-align: center;
                 white-space: nowrap;
+                color: #0D0B0A;
     }
 
-    .sectionname {
+    .sectionname,
+    .sectionnameone {
         font-weight: 400;
-        padding-top: 24px;
+        padding-top: 16px;
         font-size: 24px;
-        line-height: 1.4;
-        padding-bottom: 20px;
+        line-height: 1.6;
+        padding-bottom: 0;
         text-align: center;
     }
 
     .sectioninfo {
-        margin-bottom: 48px;
+        margin-bottom: 0;
         font-size: 16px;
         text-align: center;
     }
@@ -237,55 +235,23 @@ display: none;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+gap: 24px;
+margin-bottom: 61px;
 }
 
 .licardsone{
-width: 352px;
+width: 340px;
 }
 
 .licardstwo {
 width: 704px;
 }
 
+
+.sectionname2 {
+    display: none;
 }
-
-/* 
-.team-list {
-    max-width: 1312px;
-    gap: 64px 24px;
 }
-
-.team-card {
-    width: calc((100% - 48px) / 3);
-} */
-
-                /* .ulcards {
-                    list-style: none;
-                    padding: 0;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    gap: 24px;
-                    max-width: 1336px;
-                    margin: auto;
-                }
-        
-                .licardsone {
-        
-                    width: 30%;
-                    text-align: center;
-                    padding-bottom: 32px;
-                    max-width: 1336px;
-                }
-        
-                .licardstwo {
-        
-                    width: 30%;
-                    text-align: center;
-                    padding-bottom: 32px;
-                    max-width: 1336px;
-                } */
-
 
 
 @media screen and (min-width: 1336px) {
@@ -349,6 +315,7 @@ width: 704px;
         margin: auto;
         text-align: center;
         white-space: nowrap;
+        color: #0D0B0A;
        
     }
      
@@ -385,14 +352,14 @@ width: 704px;
             width: 100%;
         }
     
-        .sectionname {
+        .sectionname,
+        .sectionnameone {
             font-weight: 500;
             font-size: 36px;
             line-height: 1.4;
             text-align: center;
     padding-top: 32px;
     padding-bottom: 24px;
-    margin-top: 0;
         }
     
         .sectioninfo {
@@ -400,6 +367,8 @@ width: 704px;
             margin-bottom: 0;
             margin-top: 0;
         }
+
+
 
 .button2 {
     display: none;
@@ -409,6 +378,10 @@ width: 704px;
     display: none;
 }
 .cardtwo {
+    display: none;
+}
+
+.sectionname2 {
     display: none;
 }
 }
