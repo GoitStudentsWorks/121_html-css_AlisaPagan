@@ -1,369 +1,328 @@
 .subtitle {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
 }
 
- .sectiontitle {
-     font-weight: 400;
-     font-size: 40px;
-     line-height: 1.2;
-     letter-spacing: 0.01em;
-     list-style: none;
-     margin-bottom: 20px;
-     text-align: cgitenter;
- }
- 
- .description {
-             font-size: 18px;
-             margin-bottom: 40px;
-             text-align: center;
-         }
+.sectiontitle {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+}
 
 .sectioninfo {
-    margin-bottom: 48px;
-    font-size: 16px;
-    text-align: center;
+  margin-bottom: 48px;
+  font-size: 16px;
+  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
-.yoga-classes {
-    background-color: #DFEBEB;
-}
+  .yoga-classes {
+    background-color: #dfebeb;
+  }
 }
 
-@media screen and (min-width: 1px) and (max-width: 767px){
-    .subtitleone {
+@media screen and (max-width: 767px) {
+  .subtitleone {
     text-align: center;
+  }
 
-    }
+  .section-yoga {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
-        .section-yoga {
-            padding-top: 64px;
-            padding-bottom: 64px;
-            padding-left: 16px;
-            padding-right: 16px;
-        }
+  .subtitle {
+    list-style: none;
+    padding-bottom: 12px;
+    text-align: center;
+  }
 
-    .subtitle {
-        list-style: none;
-        padding-bottom: 12px;
-        text-align: center;
-    }
+  .sectiontitle {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
-    .sectiontitle {
-        font-size: 40px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+  .description {
+    margin-bottom: 48px;
+  }
 
-    .description {
-        font-size: 16px;
-        margin-bottom: 48px;
+  .sectionname-tablet,
+  .sectionname {
+    font-weight: 400;
+    padding-top: 24px;
+    font-size: 24px;
+    line-height: 1.4;
+    padding-bottom: 24px;
+    text-align: center;
+  }
 
+  .sectioninfo {
+    margin-bottom: 48px;
+    font-size: 16px;
+    text-align: center;
+  }
 
-    }
+  .button-main {
+    display: none;
+  }
 
-    .sectionname-tablet,
-    .sectionname {
-        font-weight: 400;
-        padding-top: 24px;
-        font-size: 24px;
-        line-height: 1.4;
-        padding-bottom: 24px;
-        text-align: center;
-    }
-    
-
-    .sectioninfo {
-        margin-bottom: 48px;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .button {
-        display: none;
-
-    }
-
-    .button-mobile {
-        background-color: #C2D9FC;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0;
-        border-radius: 25px;
-        margin-bottom: 64px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 343px;
-        height: 46px;
-        margin: 0 auto;
-        color: #0D0B0A;
-
-    }
-.ulcards {
+  .button-mobile {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 343px;
+    margin: 0 auto;
+  }
+  .ulcards {
     display: flex;
     flex-direction: column;
     max-width: 343px;
     margin: 0 auto;
-}
+  }
 
-
-.licardsone {
+  .licardsone {
     width: 100%;
     max-width: 600px;
     text-align: center;
     margin: auto;
-}
+  }
 
-.licardstwo {
+  .licardstwo {
     width: 100%;
     max-width: 600px;
     text-align: center;
     margin: auto;
-}
+  }
 
-.sectiontitle2 {
+  .sectiontitle2 {
     display: none;
-}
+  }
 
-.cardtwo {
+  .sectionnameone {
     display: none;
+  }
 }
 
-.sectionnameone{
+@media screen and (min-width: 768px) and (max-width: 1335px) {
+  .section-yoga {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .subtitleone {
+    width: 704px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .subtitle {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .sectiontitle2 {
+    width: 704px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .description {
+    font-size: 18px;
+
+    margin-bottom: 40px;
+  }
+
+  .button {
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: #0d0b0a;
+  }
+
+  .sectionname,
+  .sectionnameone {
+    font-weight: 400;
+    padding-top: 16px;
+    font-size: 24px;
+    line-height: 1.6;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .sectioninfo {
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .button-mobile {
     display: none;
-}
-}
+  }
 
-@media screen and (min-width: 768px) and (max-width: 1335px){
-
-    .section-yoga {
-            padding-top: 40px;
-            padding-bottom: 40px;
-            padding-left: 32px;
-            padding-right: 32px;
-        }
-    .subtitleone {
-        width: 704px;
-        margin: auto;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .subtitle {
-        list-style: none;
-        text-align: center;
-        margin-bottom: 16px;
-    }
-
-    .sectiontitle2 {
-        width: 704px;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 1.2;
-        letter-spacing: 0.01em;
-        list-style: none;
-        text-align: center;
-        margin-bottom: 24px;
-
-    }
-
-    .description {
-        font-size: 18px;
-
-        margin-bottom: 40px;
-    }
-
-
-    .button {
-        width: 110px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-        margin-top: 50px;
-        align-items: center;
-            justify-content: center;
-            display: block;
-                margin: auto;
-                text-align: center;
-                white-space: nowrap;
-                color: #0D0B0A;
-    }
-
-    .sectionname,
-    .sectionnameone {
-        font-weight: 400;
-        padding-top: 16px;
-        font-size: 24px;
-        line-height: 1.6;
-        padding-bottom: 0;
-        text-align: center;
-    }
-
-    .sectioninfo {
-        margin-bottom: 0;
-        font-size: 16px;
-        text-align: center;
-    }
-
-.button-mobile {
-display: none;
-}
-
-.sectiontitle {
+  .sectiontitle {
     display: none;
-}
+  }
 
-.ulcards {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 24px;
-margin-bottom: 61px;
-}
+  .ulcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 61px;
+  }
 
-.licardsone{
-width: 340px;
-}
+  .licardsone {
+    width: 340px;
+  }
 
-.licardstwo {
-width: 704px;
-}
+  .licardstwo {
+    width: 704px;
+  }
 
-
-.sectionname-tablet {
+  .sectionname-tablet {
     display: none;
+  }
 }
-}
-
 
 @media screen and (min-width: 1336px) {
+  .sectiontitle {
+    font-size: 48px;
+    text-align: center;
+  }
 
-    .sectiontitle {
-            font-size: 48px;
-            text-align: center;
-        }
+  .section-yoga {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
 
-    .section-yoga {
-        padding-top: 112px;
-        padding-bottom: 112px;
-        padding-left: 64px;
-        padding-right: 64px;
-    }
+  .subtitleone {
+    font-weight: 400;
+    width: 768px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+  }
 
+  .subtitle {
+    list-style: none;
+    text-align: center;
+  }
 
-    .subtitleone {
-        font-weight: 400;
-        width: 768px;
-        margin: auto;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        padding-top: 0;
-    }
+  .sectiontitle {
+    width: 768px;
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
 
-    .subtitle {
-        list-style: none;
-        text-align: center;
-       
-    }
+  .description {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
 
-    .sectiontitle {
-        width: 768px;
-        font-size: 52px;
-        text-align: center;
-        margin-bottom: 24px;
+  .button {
+    width: 110px;
+    padding-right: 24px;
+    padding-left: 24px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: #0d0b0a;
+  }
 
-    }
+  .ulcards {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1336px;
+    margin: auto;
+  }
 
-    .description {
-        font-size: 18px;
-        margin-bottom: 40px;
-    }
+  .licardsone {
+    width: 30%;
+    text-align: center;
+    padding-bottom: 32px;
+    max-width: 1336px;
+  }
 
+  .licardstwo {
+    width: 30%;
+    text-align: center;
+    padding-bottom: 32px;
+    max-width: 1336px;
+  }
 
-    .button {
-        width: 110px;
-        padding-right: 24px;
-        padding-left: 24px;
-        display: block;
-        margin: auto;
-        text-align: center;
-        white-space: nowrap;
-        color: #0D0B0A;
-       
-    }
-     
-        .ulcards {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 24px;
-            max-width: 1336px;
-            margin: auto;
-        }
-    
-        .licardsone {
-            
-            width: 30%;
-            text-align: center;
-            padding-bottom: 32px;
-            max-width: 1336px;
-        }
+  .containerpict {
+    width: 100%;
+  }
 
-                .licardstwo {
-        
-                    width: 30%;
-                    text-align: center;
-                    padding-bottom: 32px;
-                    max-width: 1336px;
-                }
-    
-    
-    
-        .containerpict {
-            width: 100%;
-        }
-    
-        .sectionname,
-        .sectionnameone {
-            font-weight: 400;
-            font-size: 36px;
-            line-height: 1.4;
-            text-align: center;
+  .sectionname,
+  .sectionnameone {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
     padding-top: 32px;
     padding-bottom: 24px;
-        }
-    
-        .sectioninfo {
-            font-size: 16px;
-            margin-bottom: 0;
-            margin-top: 0;
-        }
+  }
 
+  .sectioninfo {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 
-
-.button-mobile {
+  .button-mobile {
     display: none;
-}
+  }
 
-.sectiontitle2 {
+  .sectiontitle2 {
     display: none;
-}
-.cardtwo {
+  }
+  .cardtwo {
     display: none;
-}
+  }
 
-.sectionname-tablet {
+  .sectionname-tablet {
     display: none;
-}
+  }
 }
