@@ -94,8 +94,8 @@
 
 .hero-btn-secondary:hover,
 .hero-btn-secondary:focus {
-  border-color: #c2d9fc;
-  background-color: #c2d9fc;
+  background-color: transparent;
+  border: 1px solid #868584;
 }
 
 @media (min-width: 768px) {
@@ -105,12 +105,12 @@
   }
 
   .hero-title {
-    max-width: 423px;
-
+    max-width: 644px;
     margin-bottom: 8px;
   }
 
   .hero-text-holder {
+    align-items: start;
     gap: 32px;
   }
 
@@ -135,16 +135,15 @@
 @media (min-width: 1336px) {
   .hero-content {
     flex-direction: row;
+    gap: 24px;
     padding: 80px 0;
   }
   .hero-title {
     font-size: 72px;
     max-width: 644px;
-
     margin-bottom: 0;
-    margin-right: 24px;
   }
   .hero-text {
-    min-width: 641px;
+    width: 641px;
   }
 }
