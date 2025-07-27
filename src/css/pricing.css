@@ -34,7 +34,7 @@
 .pricing-plans-list-item {
   border-radius: 16px;
   padding: 32px 16px;
-  background: #DFEBEB;
+  background: #dfebeb;
   margin-right: auto;
   margin-left: auto;
 }
@@ -67,26 +67,10 @@
   height: 12px;
 }
 .pricing-btn {
-  border: 1px solid;
-  border: none;
-  border-radius: 100px;
-  padding: 10px 24px;
   width: 251px;
   height: 46px;
-  background: #C2D9FC;
 }
-.pricing-btn:hover {
-  border: 1px solid;
-  border-color: #c2d9fc;
-  border-radius: 100px;
-  background: none;
-}
-.pricing-btn:focus {
-  border: 1px solid;
-  border-color: #c2d9fc;
-  border-radius: 100px;
-  background: none;
-}
+
 .pricing-plans-list-item-pads {
   display: none;
 }
@@ -111,7 +95,7 @@
   .pricing-plans {
     margin-top: 24px;
   }
-  .pricing-plans-list-item-first, .pricing-plans-list-item-second {
+  .pricing-plans-list-item {
     flex-grow: 0.5;
     padding: 16px;
   }
@@ -125,7 +109,7 @@
     align-items: baseline;
     padding: 86px 16px;
   }
-  .plan-name{
+  .plan-name {
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 22px;
@@ -151,17 +135,16 @@
     padding-top: 112px;
     padding-bottom: 112px;
   }
-  .pricing-plans-list-item-first, .pricing-plans-list-item-second {
-    flex-grow: 0;
-  }
+
   .pricing-plans-list-item-pads {
     display: none;
   }
   .plan-plans-list-item-third {
-    display: block ;
+    display: block;
   }
   .pricing-plans-list-item {
     padding: 32px;
+    flex-grow: 0;
   }
   .pricing-btn {
     margin-top: 116px;
