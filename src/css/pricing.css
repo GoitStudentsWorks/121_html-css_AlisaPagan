@@ -8,13 +8,11 @@
 }
 .pricing-paragraph-title {
   font-weight: 600;
-  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   margin-bottom: 12px;
 }
 .pricing-header {
-  font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -22,8 +20,6 @@
   margin-bottom: 20px;
 }
 .price-paragraph-description {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.6;
   text-align: center;
 }
@@ -43,7 +39,6 @@
   margin-left: auto;
 }
 .plan-name {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.01em;
@@ -51,7 +46,6 @@
   margin-bottom: 8px;
 }
 .plan-price {
-  font-weight: 400;
   font-size: 44px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -62,7 +56,6 @@
   padding: 8px 0px;
 }
 .plan-features-item {
-  font-weight: 400;
   font-size: 15px;
   line-height: 1.6;
   margin-bottom: 16px;
