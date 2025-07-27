@@ -28,6 +28,6 @@ h4 {
 }
 .button:hover,
 .button:focus {
-  background-color: rgba(13, 11, 10, 5%);
-  border: 1px solid transparent;
+  background-color: transparent;
+  border: 1px solid #c2d9fc;
 }
