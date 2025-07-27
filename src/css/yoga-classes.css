@@ -33,7 +33,7 @@
 }
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px){
+@media screen and (min-width: 1px) and (max-width: 767px){
     .subtitleone {
     text-align: center;
 
@@ -87,7 +87,7 @@
 
     }
 
-    .button2 {
+    .button-mobile {
         background-color: #C2D9FC;
         font-weight: 500;
         font-size: 16px;
@@ -213,7 +213,7 @@
         text-align: center;
     }
 
-.button2 {
+.button-mobile {
 display: none;
 }
 
@@ -352,7 +352,7 @@ width: 704px;
 
 
 
-.button2 {
+.button-mobile {
     display: none;
 }
 
