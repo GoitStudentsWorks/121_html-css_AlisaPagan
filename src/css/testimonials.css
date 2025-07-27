@@ -76,7 +76,7 @@
     font-size: 40px;
   }
   .testimonials-sections-pieses {
-    width: 644px;
+    width: calc((100% - 24px) / 2);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -96,14 +96,7 @@
     justify-content: center;
     align-items: flex-start;
   }
-  .testimonials-sections-pieses:nth-child(1),
-  .testimonials-sections-pieses:nth-child(2) {
-    height: 321px;
-  }
-  .testimonials-sections-pieses:nth-child(1),
-  .testimonials-sections-pieses:nth-child(2) {
-    height: 356px;
-  }
+
   .client-info {
     display: flex;
     flex-direction: column;

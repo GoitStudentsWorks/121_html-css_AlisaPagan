@@ -8,9 +8,16 @@
   left: 0;
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
   background-color: rgba(0, 0, 0, 25%);
+  z-index: 999;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
 .modal-overlay.is-open {
+  visibility: visible;
   opacity: 1;
   pointer-events: auto;
 }
@@ -20,6 +27,10 @@
   pointer-events: none;
   visibility: hidden;
   transition: all 250ms ease;
+}
+
+.modal-overlay:not(.is-open) .modal {
+  transform: translate(-50%, -100%) scale(1.5);
 }
 
 .no-scroll {
@@ -40,7 +51,10 @@
   padding-bottom: 112px;
   background-color: #dfebeb;
   transform: translate(-50%, -50%);
+  z-index: 999;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-close-button {
   min-width: 32px;
   width: 32px;
