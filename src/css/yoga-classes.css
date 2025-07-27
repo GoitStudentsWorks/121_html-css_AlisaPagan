@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 767px){
     .subtitleone {
-        text-align: center;
+    text-align: center;
 
     }
 
@@ -65,7 +65,8 @@
 
     }
 
-    .sectionname2 {
+    .sectionname-tablet,
+    .sectionname {
         font-weight: 400;
         padding-top: 24px;
         font-size: 24px;
@@ -163,7 +164,7 @@
     }
 
     .sectiontitle2 {
-        width: 768px;
+        width: 704px;
         font-weight: 400;
         font-size: 40px;
         line-height: 1.2;
@@ -182,18 +183,7 @@
 
 
     .button {
-        background-color: #C2D9FC;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0;
         width: 110px;
-        height: 46px;
-        border-radius: 25px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 24px;
-        padding-left: 24px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 50px;
@@ -248,7 +238,7 @@ width: 704px;
 }
 
 
-.sectionname2 {
+.sectionname-tablet {
     display: none;
 }
 }
@@ -273,6 +263,7 @@ width: 704px;
         font-weight: 400;
         width: 768px;
         margin: auto;
+        text-align: center;
         align-items: center;
         justify-content: center;
         padding-top: 0;
@@ -299,18 +290,7 @@ width: 704px;
 
 
     .button {
-        background-color: #C2D9FC;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0;
         width: 110px;
-        height: 46px;
-        border-radius: 25px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 24px;
-        padding-left: 24px;
         display: block;
         margin: auto;
         text-align: center;
@@ -354,7 +334,7 @@ width: 704px;
     
         .sectionname,
         .sectionnameone {
-            font-weight: 500;
+            font-weight: 400;
             font-size: 36px;
             line-height: 1.4;
             text-align: center;
@@ -381,7 +361,7 @@ width: 704px;
     display: none;
 }
 
-.sectionname2 {
+.sectionname-tablet {
     display: none;
 }
 }
