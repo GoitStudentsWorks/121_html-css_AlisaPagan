@@ -233,7 +233,58 @@ display: none;
     display: none;
 }
 
+.ulcards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
+
+.licardsone{
+width: 50%;
+}
+
+.licardstwo {
+width: 100%;
+}
+
+}
+
+/* 
+.team-list {
+    max-width: 1312px;
+    gap: 64px 24px;
+}
+
+.team-card {
+    width: calc((100% - 48px) / 3);
+} */
+
+                /* .ulcards {
+                    list-style: none;
+                    padding: 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 24px;
+                    max-width: 1336px;
+                    margin: auto;
+                }
+        
+                .licardsone {
+        
+                    width: 30%;
+                    text-align: center;
+                    padding-bottom: 32px;
+                    max-width: 1336px;
+                }
+        
+                .licardstwo {
+        
+                    width: 30%;
+                    text-align: center;
+                    padding-bottom: 32px;
+                    max-width: 1336px;
+                } */
 
 
 
@@ -317,7 +368,6 @@ display: none;
             width: 30%;
             text-align: center;
             padding-bottom: 32px;
-            transition: transform 0.3s ease;
             max-width: 1336px;
         }
 
@@ -326,7 +376,6 @@ display: none;
                     width: 30%;
                     text-align: center;
                     padding-bottom: 32px;
-                    transition: transform 0.3s ease;
                     max-width: 1336px;
                 }
     
