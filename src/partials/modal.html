@@ -15,35 +15,19 @@
     <form class="modal-request-form">
       <div class="modal-field-wrapper">
         <label for="modal-name-ten" class="modal-label">Your Name</label>
-        <input
-          id="modal-name-ten"
-          class="modal-form-field"
-          type="text"
-          placeholder="Placeholder"
-        />
+        <input id="modal-name-ten" class="modal-form-field" type="text" placeholder="Placeholder" />
       </div>
 
       <div class="modal-form-mid-wrapper">
         <div class="modal-field-wrapper">
           <label for="modal-email-ten" class="modal-label">Email</label>
-          <input
-            id="modal-email-ten"
-            class="modal-form-field"
-            type="email"
-            placeholder="Placeholder"
-          />
+          <input id="modal-email-ten" class="modal-form-field" type="email" placeholder="Placeholder" />
         </div>
 
         <div class="modal-field-wrapper">
           <label for="modal-phone-ten" class="modal-label">Phone number</label>
-          <input
-            id="modal-phone-ten"
-            class="modal-form-field"
-            type="tel"
-            placeholder="Placeholder"
-            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})"
-            required
-          />
+          <input id="modal-phone-ten" class="modal-form-field" type="tel" placeholder="Placeholder"
+            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})" required />
 
           <p class="text-invalid">Invalid phone number</p>
         </div>
@@ -84,7 +68,8 @@
           <label for="modal-phone-sxt-five" class="modal-label">Phone number</label>
           <input id="modal-phone-sxt-five" class="modal-form-field" type="tel" placeholder="Placeholder"
             pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})" required />
-  
+
+
           <p class="text-invalid">Invalid phone number</p>
         </div>
       </div>
@@ -134,6 +119,48 @@
   </div>
 </div>
 
+<div class="modal-overlay is-open is-hidden" data-modal="80">
+
+  <div class="modal container">
+    <button type="button" class="modal-close-button" data-modal-close>
+      <svg class="close-icon" width="32" height="32">
+        <use href="/img/icons.svg#icon-modal"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-heading">Join Now!</h2>
+
+    <p class="modal-text">One Session</p>
+
+    <h3 class="modal-price">$80</h3>
+
+    <form class="modal-request-form">
+      <div class="modal-field-wrapper">
+        <label for="modal-name-eighty" class="modal-label">Your Name</label>
+        <input id="modal-name-eighty" class="modal-form-field" type="text" placeholder="Placeholder" />
+      </div>
+
+      <div class="modal-field-wrapper">
+        <label for="modal-email-eighty" class="modal-label">Email</label>
+        <input id="modal-email-eighty" class="modal-form-field" type="email" placeholder="Placeholder" />
+      </div>
+
+      <div class="modal-form-mid-wrapper">
+        <div class="modal-field-wrapper">
+          <label for="modal-phone-eighty" class="modal-label">Phone number</label>
+          <input id="modal-phone-eighty" class="modal-form-field" type="tel" placeholder="Placeholder"
+            pattern="([0-9]{10})|([0-9]{3}-[0-9]{3}-[0-9]{4})" required />
+
+          <p class="text-invalid">Invalid phone number</p>
+        </div>
+      </div>
+
+      <button type="submit" class="button">Go to checkout</button>
+    </form>
+  </div>
+
+</div>
+
 <div class="modal-overlay is-open is-hidden" data-modal="80-pads">
   <div class="modal container">
     <button type="button" class="modal-close-button" data-modal-close>
@@ -172,4 +199,5 @@
       <button type="submit" class="button">Go to checkout</button>
     </form>
   </div>
+
 </div>

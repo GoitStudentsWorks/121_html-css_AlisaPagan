@@ -190,6 +190,8 @@ html {
 @media only screen and (min-width: 768px) {
     .btn-mobile-nav {
         width: 204px;
+        margin-right: auto;
+        display: block;
     }
 }
 
