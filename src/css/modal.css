@@ -184,4 +184,8 @@
   .modal-field-wrapper {
     width: 640px;
   }
+
+  .modal-button {
+  width: 155px;
+  }
 }
