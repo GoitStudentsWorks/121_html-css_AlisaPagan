@@ -106,6 +106,23 @@
   .plan-features-item {
     font-size: 16px;
   }
+  .pricing-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  .pricing-plans-list-item {
+    padding: 32px 24px;
+  }
+
+  .pricing-btn {
+    width: 295px;
+  }
+
+  .plan-features-item {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
