@@ -61,14 +61,14 @@
     width: 704px;
     justify-content: space-between;
   }
-  .testimonials-sections-pieses:nth-child(1),
+  /*   .testimonials-sections-pieses:nth-child(1),
   .testimonials-sections-pieses:nth-child(2) {
     height: 356px;
   }
   .testimonials-sections-pieses:nth-child(3),
   .testimonials-sections-pieses:nth-child(4) {
     height: 321px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1336px) {
