@@ -81,13 +81,13 @@
   width: 100%;
 }
 
-.hero-btn {
+.hero-list .button {
   color: #0d0b0a;
   text-align: center;
-  display: block;
 }
 
 .hero-btn-secondary {
+  text-align: center;
   background-color: rgba(13, 11, 10, 0.05);
   border-color: rgba(255, 255, 255, 0);
 }
@@ -121,6 +121,12 @@
   .hero-list {
     flex-direction: row;
     align-items: center;
+    gap: 16px;
+  }
+
+  .hero-btn-secondary,
+  .hero-list .button {
+    width: 144px;
   }
 
   .hero-list-item {
