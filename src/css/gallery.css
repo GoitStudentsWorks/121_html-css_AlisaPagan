@@ -1,4 +1,4 @@
-.container.special-padding {
+.gallery {
   padding: 64px 20px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container.special-padding {
+  .gallery {
     padding: 40px 32px;
   }
 
@@ -55,7 +55,7 @@
 }
 
 @media screen and (min-width: 1336px) {
-  .container.special-padding {
+  .gallery {
     padding: 112px 64px;
   }
 
