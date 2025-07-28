@@ -1,0 +1,153 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dfebeb;
+  padding: 64px 16px;
+}
+
+.text-container-about-us {
+  max-width: 343px;
+  text-align: center;
+}
+
+.list-about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.mini-title-us {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+.under-title-us {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.about-us-title {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  max-width: 343px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.button.about-us-btn {
+  color: #0d0b0a;
+  margin-top: 48px;
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-text-about-us {
+  display: inline;
+}
+
+.tablet-text-about-us {
+  display: none;
+}
+
+@media (min-width: 375px) {
+  .under-title-us {
+    max-width: 343px;
+  }
+
+  .button.about-us-btn {
+    width: 343px;
+  }
+
+  .mobile-text-about-us {
+    display: inline;
+  }
+
+  .tablet-text-about-us {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 32px 40px 32px;
+    background-color: #f2fafa;
+  }
+
+  .about-us-title {
+    min-width: 704px;
+    margin-bottom: 24px;
+  }
+
+  .under-title-us {
+    min-width: 704px;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .list-about-us {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 46.5px;
+    align-items: center;
+    justify-content: center;
+    max-width: 704px;
+  }
+
+  .list-item-about-us {
+    max-width: 340px;
+  }
+
+  .button.about-us-btn {
+    width: 110px;
+    padding: 10px 24px;
+    display: inline-flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .mobile-text-about-us {
+    display: none;
+  }
+
+  .tablet-text-about-us {
+    display: inline;
+  }
+}
+
+@media (min-width: 1336px) {
+  .about-us {
+    padding: 112px 64px;
+  }
+
+  .list-about-us {
+    max-width: 100%;
+  }
+
+  .list-item-about-us {
+    max-width: 310px;
+    width: calc((100% - 72px) / 4);
+  }
+
+  .mini-title-us {
+    font-size: 28px;
+    margin-bottom: 28px;
+  }
+
+  .about-us-title {
+    font-size: 52px;
+  }
+}

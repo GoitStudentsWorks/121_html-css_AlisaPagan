@@ -19,15 +19,19 @@ h4 {
 }
 
 .button {
+  display: block;
+  text-align: center;
   border: 1px solid #c2d9fc;
   background-color: #c2d9fc;
   border-radius: 100px;
   padding: 10px 24px;
   height: 46px;
+  font-family: 'Sarabun', sans-serif;
   font-weight: 500;
+  color: #0d0b0a;
 }
 .button:hover,
 .button:focus {
-  background-color: rgba(13, 11, 10, 5%);
-  border: 1px solid transparent;
+  background-color: transparent;
+  border: 1px solid #c2d9fc;
 }
