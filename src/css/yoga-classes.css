@@ -252,13 +252,14 @@
   }
 
   .sectiontitle {
-    width: 768px;
+    max-width: 768px;
     font-size: 52px;
     text-align: center;
     margin-bottom: 24px;
   }
 
   .description {
+    max-width: 768px;
     font-size: 18px;
     margin-bottom: 40px;
   }
