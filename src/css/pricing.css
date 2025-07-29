@@ -1,11 +1,6 @@
-.pricing-container {
+.pricing-section {
   padding-top: 64px;
   padding-bottom: 64px;
-  width: 100%;
-}
-
-.pricing-title {
-  text-align: center;
 }
 
 .pricing-paragraph-title {
@@ -16,6 +11,7 @@
 }
 
 .pricing-header {
+  font-weight: 400;
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -26,10 +22,7 @@
 .price-paragraph-description {
   line-height: 1.6;
   text-align: center;
-}
-
-.pricing-plans {
-  margin-top: 48px;
+  margin-bottom: 32px;
 }
 
 .pricing-plans-list {
@@ -55,6 +48,7 @@
 }
 
 .plan-price {
+  font-weight: 400;
   font-size: 44px;
   line-height: 1.2;
   letter-spacing: 0.01em;
@@ -81,7 +75,6 @@
 
 .pricing-btn {
   width: 251px;
-  height: 46px;
 }
 
 .pricing-plans-list-item-pads {
@@ -89,27 +82,9 @@
 }
 
 @media only screen and (min-width: 375px) {
-  .pricing-container {
+  .pricing-section {
     padding-top: 40px;
     padding-bottom: 40px;
-    width: 100%;
-  }
-
-  .pricing-plans-list-item {
-    padding: 32px 24px;
-  }
-
-  .pricing-btn {
-    width: 295px;
-  }
-
-  .plan-features-item {
-    font-size: 16px;
-  }
-  .pricing-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: 100%;
   }
 
   .pricing-plans-list-item {
@@ -126,10 +101,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .pricing-plans {
-    margin-top: 24px;
-  }
-
   .pricing-plans-list-item {
     flex-grow: 0.5;
     padding: 16px;
@@ -171,32 +142,40 @@
   .plan-price {
     font-size: 72px;
   }
-}
 
-@media only screen and (min-width: 1336px) {
-  .pricing-container {
-    padding-top: 112px;
-    padding-bottom: 112px;
+  .price-paragraph-description {
+    margin-bottom: 24px;
   }
 
-  .pricing-plans-list-item-pads {
-    display: none;
-  }
+  @media only screen and (min-width: 1336px) {
+    .pricing-section {
+      padding-top: 112px;
+      padding-bottom: 112px;
+    }
 
-  .plan-plans-list-item-third {
-    display: block;
-  }
+    .pricing-plans-list-item-pads {
+      display: none;
+    }
 
-  .pricing-plans-list-item {
-    padding: 32px;
-    flex-grow: 0;
-  }
+    .plan-plans-list-item-third {
+      display: block;
+    }
 
-  .pricing-btn {
-    margin-top: 116px;
-  }
+    .pricing-plans-list-item {
+      padding: 32px;
+      flex-grow: 0;
+    }
 
-  .pricing-btn-third {
-    margin-top: 32px;
+    .pricing-btn {
+      margin-top: 116px;
+    }
+
+    .pricing-btn-third {
+      margin-top: 32px;
+    }
+
+    .price-paragraph-description {
+      margin-bottom: 40px;
+    }
   }
 }
