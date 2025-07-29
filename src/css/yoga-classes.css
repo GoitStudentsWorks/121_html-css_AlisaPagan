@@ -1,8 +1,15 @@
+.yoga-classes {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #dfebeb;
+}
 .subtitle {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 12px;
 }
 
 .sectiontitle {
@@ -32,26 +39,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .yoga-classes {
-    background-color: #dfebeb;
-  }
-}
-
-@media screen and (max-width: 767px) {
   .subtitleone {
-    text-align: center;
-  }
-
-  .section-yoga {
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .subtitle {
-    list-style: none;
-    padding-bottom: 12px;
     text-align: center;
   }
 
@@ -125,11 +113,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1335px) {
-  .section-yoga {
+  .yoga-classes {
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
+    background-color: #f2fafa;
   }
 
   .subtitleone {
@@ -229,11 +216,10 @@
     text-align: center;
   }
 
-  .section-yoga {
+  .yoga-classes {
     padding-top: 112px;
     padding-bottom: 112px;
-    padding-left: 64px;
-    padding-right: 64px;
+    background-color: #f2fafa;
   }
 
   .subtitleone {
@@ -249,6 +235,7 @@
   .subtitle {
     list-style: none;
     text-align: center;
+    margin-bottom: 16px;
   }
 
   .sectiontitle {
