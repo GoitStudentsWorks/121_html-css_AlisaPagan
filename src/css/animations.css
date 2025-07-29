@@ -1,0 +1,44 @@
+.header-logo {
+  animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(0%, 0%) scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translate(0%, 0%) scale(1.2);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: translate(0%, 0%) scale(1);
+    opacity: 1;
+  }
+}
+
+.gallery-list-item-img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-list-item-img:hover,
+.gallery-list-item-img:focus,
+.button:hover,
+.button:focus {
+  transform: scale(1.05);
+}
+
+.mobile-menu-close:hover,
+.modal-close-button:hover,
+.mobile-menu-close:focus,
+.modal-close-button:focus {
+  transition: transform 0.3s ease;
+  transform: rotate(90deg);
+}
+
+.footer-social-item:hover,
+.footer-social-item:focus {
+  fill: blueviolet;
+}
