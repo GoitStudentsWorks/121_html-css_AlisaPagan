@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/FlowBloom/",
+    "build": "vite build --base=/121_html-css_AlisaPagan/",
     "preview": "vite preview"
   },
   "devDependencies": {
